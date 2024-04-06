@@ -11,21 +11,23 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
 }
 
-body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+html {
+    font-size: 62.5%;
+    font-family: 'IBM Plex Mono', monospace, sans-serif;
 }
-ol, ul,li {
+
+/* body {
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'IBM Plex Mono', monospace, sans-serif;
+    line-height: 1;
+} */
+/* ol, ul,li {
     list-style: none;
 }
 a{
     text-decoration: none;
     color: var(--cor-de-link);
-}
+} */
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
@@ -41,9 +43,27 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
-
+.menu{
+    border: 2px solid;
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem;
 }
+    .menu .menu__header {
+        display: flex;
+    }
+
+    .menu__list, .menu__contacto {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .menu .menu__list {
+        display: none;
+    }
 
 /*Sección Title*/
 
