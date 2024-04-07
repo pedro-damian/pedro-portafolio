@@ -1,14 +1,12 @@
-/*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
 
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+
+    --font-title: 2.2rem;
+    --font-subtitle:1.6rem;
+    --font-parrafo: 1.4rem;
+    --font-color: #464646;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
 }
 
 html {
@@ -29,53 +27,184 @@ a{
     color: var(--cor-de-link);
 } */
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
 .menu{
-    border: 2px solid;
+    border: 1px solid red;
     width: 100%;
+    height: 56px;
     min-width: 320px;
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    padding: 1rem;
+    align-items: center;
+    padding: 0 1.6rem;
 }
     .menu .menu__header {
         display: flex;
     }
 
-    .menu__list, .menu__contacto {
+    .menu__title {
+        font-size: var(--font-subtitle);
+        font-weight: bold;
+        line-height: 1.8rem;
+    }
+
+    nav {
         list-style: none;
-        text-decoration: none;
+        margin: 0;
     }
 
     .menu .menu__list {
         display: none;
+        list-style: none;
     }
+
+    .menu__list__item a {
+        text-decoration: none;
+    }
+
+    .menu__list__contacto a{
+        text-decoration: none;
+        font-size: var(--font-parrafo);
+        line-height: 1.6rem;
+        font-weight: 400;
+        list-style: none;
+    }
+
+    
 
 /*Sección Title*/
 
 section.title{
-
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    min-width: 320px;
 }
+
+.title__div {
+    width: 100%;
+    min-width: 320px;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.title__profile {
+    width: 10rem;
+    height: 10rem;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.title__bio {
+    width: auto;
+    font-size: var(--font-title);
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--font-color);
+}
+.title__subsection{
+    font-size: var(--font-parrafo);
+    line-height: 1.6rem;
+    font-weight: 500;
+    color: var(--font-color);
+}
+.title__network{
+    display: flex;
+    gap: 0.8rem;
+    font-size: var(--font-parrafo);
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+.title__network a {
+    text-decoration: none;
+}
+
 
 /*Sección About*/
 
 section.about{
-
+    border: 1px solid yellow;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    background-color: #EAF2FD;
+    padding: 1.6rem;
+    
 }
+.about .about__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+.about__title {
+    font-size: var(--font-title);
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--font-color);
+    text-align: center;
+}
+.about__paragraph {
+    line-height: 1.6rem;
+    font-size: var(--font-parrafo);
+    font-weight: 400;
+}
+
+
+/*Sección Hobbies*/
+
+section.skills{
+    border: 1px solid blue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 1.6rem;
+}
+.skills__title {
+    font-size: var(--font-title);
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+.skills__line {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+}
+.skills__box {
+    border: 1px dashed;
+    width: 15.6rem;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills__box .skills__name{
+    font-size: var(--font-subtitle);
+    line-height: 1.8rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    color: var(--font-color);
+}
+
+
 
 /*Sección Hobbies*/
 
