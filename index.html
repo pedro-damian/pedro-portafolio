@@ -24,27 +24,37 @@
     <!-- Sección del Menú  -->
     <main class="tudo">
         <section class="menu">
-            <header class="menu__header">
-                <!-- <img src="assets\vector.png"> -->
-                <h3 class="menu__title">Pedro Damian</h3>
-            </header>
-            <nav>
-                <ul class="menu__list">
-                    <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                    <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                    <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                    <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="#contacto">p.damianoriega@gmail.com</a></li>
-                </ul>
-                <li class="menu__list__contacto"><a class="" href="#contacto">p.damianoriega@gmail.com</a></li>
-            </nav>
+            <div class="menu__container">
+                <header class="menu__header">
+                    <img src="./assets/icons/code 2.svg">
+                    <h1 class="menu__title">Pedro Damian</h1>
+                </header>
+                <nav aria-labelledby="menu__title" class="nav__menu">
+                    <ul class="menu__list">
+                        <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                        <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                        <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                        <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                        <li class="menu__list__item"><a href="#contacto">Contactame</a></li>
+                    </ul>               
+                </nav>
+                <div class="container__menu__contacto">
+                    <a class="menu__list__contacto" href="mailto:p.damianoriega@gmail.com">p.damianoriega@gmail.com</a>
+                </div>
+            </div>
+            
+            
         </section>
 
         <!-- Sección del Header/Title/Hero -->
         <section class="title">
             <div class="title__div">
-                <img class="title__profile" src="./assets/foto.png">
+                <figure class="container__foto">
+                    <img class="title__profile" src="./assets/foto.png">
+                </figure>
+                
+                
                 <div class="title__container">
                     <h2 class="title__bio">Hola, mi nombre es Pedro Damian y construyo paginas web</h2>
                     <h3 class="title__subsection">Estoy formandome en desarrollo frontend con React y actualmente
@@ -57,13 +67,12 @@
                                 <img src="./assets/github.svg">
                             </a>
                         </li>
-                        <li class="title__network__item">
+                        <!-- <li class="title__network__item">
                             <a href="">
                                 <span class="network__name">Linkedin</span>
                                 <img src="./assets/linkedin.svg">
                             </a>
-
-                        </li>
+                        </li> -->
                         <li class="title__network__item">
                             <a href="">
                                 <span class="network__name">Twitter</span>
