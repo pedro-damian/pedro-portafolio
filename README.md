@@ -1,23 +1,31 @@
-# Challenge ONE | Front End -  Portafolio
+# Portafolio Personal y Profesional
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
-</p>
+## Descripción
+Este proyecto es mi portafolio personal y profesional, diseñado para mostrar mis habilidades, proyectos y experiencia. Es una página web que presenta información relevante sobre mí y mis logros.
+
+## Contenido
+El portafolio incluye las siguientes secciones:
+
+1. **Sobre mí**: Una breve introducción sobre quién soy, mis intereses y mi enfoque profesional.
+2. **Proyectos**: Una lista de proyectos en los que he trabajado. Cada proyecto tiene una breve descripción, tecnologías utilizadas y enlaces a repositorios o demostraciones.
+3. **Experiencia**: Detalles sobre mi experiencia laboral, pasantías o proyectos anteriores.
+4. **Habilidades**: Una lista de habilidades técnicas y blandas que poseo.
+5. **Contacto**: Información de contacto para que los visitantes puedan comunicarse conmigo.
+
+## Tecnologías Utilizadas
+- HTML
+- CSS
+- Git (para el control de versiones)
+
+## Instrucciones de Uso
+1. Clona este repositorio en tu máquina local.
+2. Abre el archivo `index.html` en tu navegador para ver el portafolio.
+3. Personaliza el contenido según tus necesidades:
+   - Reemplaza la información de "Sobre mí" con tus propios detalles.
+   - Agrega tus proyectos y experiencias.
+   - Ajusta el estilo y diseño según tus preferencias.
+
+## Contribución
+Si deseas contribuir o mejorar este portafolio, ¡siéntete libre de hacerlo! Abre un *pull request* con tus cambios y estaré encantado de revisarlos.
 
 
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
----
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
-
-### Analisando el repositorio!
----
-### Este es el repositorio base de nuestro proyecto, acá tendrás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
-#### 🔹validacion.js: Documento vacío dónde vas a desarrollar tu lógica de programación para validar formularios usando Javascript.
-
-#### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
-</p>
