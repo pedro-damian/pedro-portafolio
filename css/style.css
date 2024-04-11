@@ -18,6 +18,19 @@ html {
     font-family: 'IBM Plex Mono', monospace, sans-serif;
 }
 
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.warnings {
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 2rem;
+}
+
+
+
+
 main.tudo {
     width: 100%;
     height: auto;
@@ -493,6 +506,7 @@ section.formcontato{
                     outline: none;
                     border: none;
                     margin: 0 auto 2rem;
+                    cursor: pointer;
                 }
 
 /*footeer*/

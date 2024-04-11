@@ -326,26 +326,26 @@
                         <h2 class="formcontato__title">Contacto</h2>
                         <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                        <form class="formcontato__form" name="form">
-                            <div class="container__input">
+                        <form class="formcontato__form" name="form" id="contacto">
+                            <div class="container__input" id="grupo__nombre">
                                 <!-- <label for="">Nombre:</label> -->
-                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" id="name">
                             </div>
-                            <div class="container__input">
+                            <div class="container__input" id="grupo__email">
                                 <!-- <label for="">E-mail:</label> -->
-                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail" id="mail">
                             </div>
-                            <div class="container__input">
-                                <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                            <div class="container__input" id="grupo__asunto">
+                                <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" id="asunt">
                             </div>
                             <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
                                 placeholder="Mensaje"></textarea>
                             <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                            <p class="warnings" id="warnings"></p>
                         </form>
                     </div>
                 </div>
             </section>
-
     </main>
 
     <!-- Sección de Footer -->
